@@ -14,23 +14,7 @@
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="assets/js/jquery.js"></script>
   <script src="dist/js/bootstrap.min.js"></script>
-  <script type="text/javascript">
-  $(function(){
-    $('.segment').each(function(){
-      var seg = $(this); 
-      var t = seg.find('textarea');
-      var text = seg.find('p').text();
-    t.on('keyup', function(e){
-      var txt = t.val();
-      if(text.substr(0, txt.length) != txt){
-      t.css('color', 'red');
-      } else {
-      t.css('color', 'green');
-      }
-    });
-    });
-  });
-  </script>  
+  <script src="english.js" type="text/javascript"></script>
 </head>
 <body style="margin: 20px;">
   <h2>跟田老师背诵英语模板</h2>
